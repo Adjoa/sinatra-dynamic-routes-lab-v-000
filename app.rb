@@ -17,7 +17,7 @@ class App < Sinatra::Base
     #
     # @number.times do
     #   "Hello"
-      "#{@number}"
+      "#{@number.to_i ** 2}"
       "#{@phrase}"
     # end
   end
